@@ -145,7 +145,7 @@ func deleteImage(c *gin.Context) {
 
 func main() {
 	var err error
-	db, err = sql.Open("postgres", "postgres://postgres:5131@localhost:5433/crud_db?sslmode=disable")
+	db, err = sql.Open("postgres", "postgres://usuario:5131@localhost:5433/crud_db?sslmode=disable")
 	if err != nil {
 		log.Fatalf("Failed to connect to database: %v", err)
 	}

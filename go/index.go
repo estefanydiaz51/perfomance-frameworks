@@ -152,7 +152,7 @@ func deleteImage(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	var err error
-	db, err = sql.Open("postgres", "postgres://backend:12345@localhost/crud_db?sslmode=disable")
+	db, err = sql.Open("postgres", "postgres://usuario:12345@localhost:5433/crud_db?sslmode=disable")
 	if err != nil {
 		log.Fatalf("Failed to connect to database: %v", err)
 	}

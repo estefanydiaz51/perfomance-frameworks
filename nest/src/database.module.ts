@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { Pool } from 'pg';
 
 const pool: Pool = new Pool({
-  user: 'postgres',
+  user: 'usuario',
   host: 'localhost',
   database: 'crud_db',
   password: '5131',

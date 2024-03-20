@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 # Configuración de la conexión a la base de datos.
 conn = psycopg2.connect(host='localhost', database='crud_db',
-                        user='postgres', password='5131', port='5433')
+                        user='usuario', password='5131', port='5433')
 conn.autocommit = True
 
 # CREATE
