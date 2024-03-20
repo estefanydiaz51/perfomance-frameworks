@@ -158,6 +158,6 @@ func main() {
 	r.PUT("/update/:id", updateImage)
 	r.DELETE("/delete/:id", deleteImage)
 
-	fmt.Println("Server running at http://localhost:3000")
+	fmt.Println("Server running at http://52.23.103.132:3000")
 	log.Fatal(r.Run(":3000"))
 }
