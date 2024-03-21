@@ -159,5 +159,5 @@ func main() {
 	r.DELETE("/delete/:id", deleteImage)
 
 	fmt.Println("Server running at http://52.23.103.132:3000")
-	log.Fatal(r.Run(":3000"))
+	log.Fatal(r.Run("http://52.23.103.132:3000"))
 }
