@@ -104,4 +104,4 @@ def delete(id):
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=3000)
+    app.run(debug=True, host='52.23.103.132', port=3000)
